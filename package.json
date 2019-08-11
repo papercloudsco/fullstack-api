@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "babel-node": "babel-node --presets=env",
+    "start": "NODE_PATH=src/ yarn babel-node -- ./index.js",
+    "local": "NODE_PATH=src/ nodemon --exec yarn babel-node -- ./index.js"
+  },
+  "dependencies": {
+    "@accounts/graphql-api": "^0.16.0",
+    "@accounts/mongo": "^0.16.0",
+    "@accounts/password": "^0.16.0",
+    "@accounts/server": "^0.16.0",
+    "apollo-server": "^2.8.1",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^8.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+notes.txt
+.eslintrc
+dump/
+.env
+firebase.json
+.DS_Store
