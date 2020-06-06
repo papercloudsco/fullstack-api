@@ -10,7 +10,7 @@
     "@accounts/password": "^0.16.0",
     "@accounts/server": "^0.16.0",
     "@graphql-modules/core": "^0.7.9",
-    "apollo-server": "^2.8.1",
+    "apollo-server": "^2.14.2",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
